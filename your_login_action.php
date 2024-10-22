@@ -32,28 +32,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Arahkan ke halaman plant sesuai dengan lokasi pengguna
             switch ($_SESSION['location']) {
                 case 'BRIK Mix Legok':
-                    header('Location: plant/plant_legok.php');
+                    header('Location: plant_legok.php');
                     break;
                 case 'BRIK Mix Cikarang':
-                    header('Location: plant/plant_cikarang.php');
+                    header('Location: plant_cikarang.php');
                     break;
                 case 'BRIK Mix Alam Sutera':
-                    header('Location: plant/plant_alam_sutera.php');
+                    header('Location: plant_alam_sutera.php');
                     break;
                 case 'BRIK Mix Sentul':
-                    header('Location: plant/plant_sentul.php');
+                    header('Location: plant_sentul.php');
                     break;
                 case 'BRIK Mix Kelapa Gading':
-                    header('Location: plant/plant_kelapa_gading.php');
+                    header('Location: plant_kelapa_gading.php');
                     break;
                 case 'BRIK Mix Karawang':
-                    header('Location: plant/plant_karawang.php');
+                    header('Location: plant_karawang.php');
                     break;
                 case 'BRIK Mix Bekasi Barat':
-                    header('Location: plant/plant_bekasi_barat.php');
+                    header('Location: plant_bekasi_barat.php');
                     break;
                 case 'BRIK Mix HO':
-                    header('Location: plant/plant_ho.php');
+                    header('Location: plant_ho.php');
                     break;
                 default:
                     echo "<script>alert('Lokasi tidak valid!');</script>";
