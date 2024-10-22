@@ -180,6 +180,16 @@
                 icon.classList.remove('fly');
             }, 500);
         }
+       <form action="index.php" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <button type="submit">Login</button>
+</form>
+
     </script>
 </body>
 </html>
