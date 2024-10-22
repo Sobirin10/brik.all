@@ -180,6 +180,14 @@
                 icon.classList.remove('fly');
             }, 500);
         }
+       if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    echo "Form submitted with POST method!";
+    // Proses autentikasi di sini
+} else {
+    echo "Form not submitted with POST method!";
+    // Arahkan ulang ke login atau berikan pesan error
+}
+
     </script>
 </body>
 </html>
