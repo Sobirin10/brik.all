@@ -164,12 +164,16 @@
     <div class="login-container">
         <img src="logo.svg" alt="Logo" class="logo">
         <h1>Aplikasi Manajemen Aset</h1>
-        <form method="POST" action="your_login_action.php">
-            <label for="username">Username:</label>
-            <input type="text" name="username" required>
-            <label for="password">Password:</label>
-            <input type="password" name="password" required>
-            <button type="submit">Login</button>
+<form action="index.php" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <button type="submit">Login</button>
+</form>
+
         </form>
         <p class="moving-text">Lupa username/password? Silahkan hubungi Admin IT Anda.</p>
     </div>
