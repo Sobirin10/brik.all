@@ -180,7 +180,7 @@
                 icon.classList.remove('fly');
             }, 500);
         }
-       <form action="index.php" method="POST">
+       <form action="dashbord.php" method="POST">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" required>
     
